@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- start header -->
+    <header>
+        <div>
+            <img src="./images/logo.png" alt="logo-header">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">produit</a></li>
+                <li><a href="">contact</a></li>
+            </ul>
+        </nav>
+        <div>
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </header>
+    <button>contact</button>
+    <form action="">
+        <label>enter your name</label>
+        <input type="text" name="" id="">
+        <input type="checkbox" name="" id="">
+        <input type="radio" name="" id="">
+        <input type="file" name="" id="">
+    </form>
+    <!-- end header -->
+    <section>
+        <div class="container">
+            <audio controls>
+                <source src="./images/horse.mp3" type="audio/ogg">
+                <source src="./images/horse.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+              </audio>
+              <video width="320" height="240" controls>
+                <source src="movie.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/cqyziA30whE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h1>title lebel one</h1>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Deserunt ratione velit saepe molestiae sequi fugiat, perspiciatis a, iure in repudiandae facere asperiores voluptatum assumenda, nemo dolorum quibusdam quo blanditiis! Esse!</p>
+                <img src="./images/images.jpeg" alt="image" title="this a title">
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div>
+                    <img src="./images/logo.png" alt="logo-header">
+                </div>
+                <div>
+                    <h5>this title</h5>
+                    <ul>
+                        <li><a href="">home</a></li>
+                        <li><a href="">produit</a></li>
+                        <li><a href="">contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>this title</h5>
+                    <ul>
+                        <li><a href="">home</a></li>
+                        <li><a href="">produit</a></li>
+                        <li><a href="">contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>this title</h5>
+                    <ul>
+                        <li><a href="">home</a></li>
+                        <li><a href="">produit</a></li>
+                        <li><a href="">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <p>copyright...</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
